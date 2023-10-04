@@ -2,10 +2,12 @@
 <?php get_sidebar(); ?>
 </div>
 <footer class="planty_footer">
-<div class="mentions_legales" > 
-    <a href=" "> Mentions légales </a> </div>
+
+<div class="mentions_legales">
+    <a class="text-decoration" href=http://localhost:8888/planty_wordpress/mentions-legales/ > Mentions Légales </a> </div>
+
 </footer>
-</div>
+
 <?php wp_footer(); ?>
 </body>
 </html>

@@ -8,16 +8,17 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="wrapper" class="hfeed">
-<header id="header" role="banner" class="planty_header">
+<header id="header" role="banner">
     
-<div> 
-<img src="blankslate-child/img/logo.svg" alt="Logo">
+ 
+<div class="planty_logo">
+<img class="logo" src="wp-content/themes/blankslate-child/logo_source.png" alt="Logo">
+</div>
 
-<nav id="menu" class="planty_nav" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
+<nav id="menu" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
 <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'link_before' => '<span itemprop="name">', 'link_after' => '</span>' ) ); ?>
 </nav>
 
-</div>
 </header>
 <div id="container">
 <main id="content" role="main">

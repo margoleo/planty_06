@@ -11,31 +11,72 @@ Updated: 2023-09-15 14:04:49
 
 */
 
-.planty_header{
-    height: 80px;
-}
+/*
+HEADER
+*/
 
-.planty_nav {
+#header {
+    height: 50px;
     display: flex;
+    justify-content: space-between;
 }
 
-#sidebar{
+.planty_header {
+    display: flex;
+    width: 1600px;
+}
+
+.planty_logo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+.logo{
+    height: 30px;
+    width: 200px;
+    object-fit: cover;
+}
+
+#menu-principal {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu-item-48{
+    width: 236px;
+    height: 50px;
+    background-color: #e0b9b4;
+    text-decoration: none;
+}
+
+#sidebar {
+    display: none;
+}
+.header {
     display: none;
 }
 
-.page-item-46{
-    width: 236px;
-    height: 80px;
-    background-color: #e0b9b4;
-}
-
+/*
+FOOTER
+*/
 
 .planty_footer{
-    height: 50px;
-    background-color: white;
+    height: 60px;
+    background-color: white !important;
+    display: flex;
+    justify-content: center;
 }
-.mentions_legales{
+.mentions_legales {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.text-decoration {
+    text-decoration: none;
+}
+.text-decoration:visited {
+    color: black;
 }
